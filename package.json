@@ -1,0 +1,38 @@
+{
+  "name": "image-resizer",
+  "productName": "Image Resizer",
+  "version": "1.0.0",
+  "description": "Electron App Image resizer",
+  "main": "main.js",
+  "scripts": {
+    "nodemon": "nodemon --watch . --exec \"electron .\"",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thijsBoet/image-resizer.git"
+  },
+  "keywords": [
+    "Electron",
+    "Js",
+    "App",
+    "Image",
+    "Resizer",
+    "Brad",
+    "Traversy"
+  ],
+  "author": "Brad Traversy, Matthijs Boet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thijsBoet/image-resizer/issues"
+  },
+  "homepage": "https://github.com/thijsBoet/image-resizer#readme",
+  "dependencies": {
+    "electron": "^24.1.3",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
